@@ -17,5 +17,5 @@ spec:
       - name: hello-world
         image: busybox
         command: ["sh", "-c", "while true; do echo 'Hello from hello-world app!'; sleep 5; done"]
-        ports:
-        - containerPort: 80
+        # ports:
+        # - containerPort: 80

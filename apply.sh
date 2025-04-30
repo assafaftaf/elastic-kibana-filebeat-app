@@ -14,4 +14,4 @@ kubectl apply -f filebeat/filebeat-rbac.yml
 kubectl apply -f filebeat/filebeat.yaml
 
 kubectl apply -f app/app_deployment.yml  
-kubectl apply -f app/app_service.yml  
+# kubectl apply -f  app/app_service.yml  
